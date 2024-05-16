@@ -213,13 +213,13 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "StorybookConfig",
-                "defaultValue": "{\n  stories: ['../**/*.stories.@(js|jsx|ts|tsx|mdx)'],\n  addons: ['@storybook/addon-essentials', '@storybook/addon-interactions'],\n  framework: {\n    name: '@storybook/angular',\n    options: {},\n  },\n  docs: {\n    autodocs: true,\n    defaultName: 'Documentação',\n  }\n}"
+                "defaultValue": "{\n  stories: ['../src/stories/*.stories.@(js|jsx|ts|tsx|mdx)'],\n  addons: ['@storybook/addon-essentials', '@storybook/addon-interactions'],\n  framework: {\n    name: '@storybook/angular',\n    options: {},\n  },\n  docs: {\n    autodocs: true,\n    defaultName: 'Documentação',\n  }\n}"
             },
             {
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<ButtonComponent>",
@@ -229,7 +229,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/input.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/input.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<InputComponent>",
@@ -239,7 +239,7 @@
                 "name": "Primario",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -249,7 +249,7 @@
                 "name": "PrimarioDesabilitado",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -259,7 +259,7 @@
                 "name": "PrimarioVioleta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -269,7 +269,7 @@
                 "name": "PrimarioVioletaDesabilitado",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -279,7 +279,7 @@
                 "name": "Primary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/input.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/input.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -289,7 +289,7 @@
                 "name": "Secundario",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -299,7 +299,7 @@
                 "name": "SecundarioDesabilitado",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -309,7 +309,7 @@
                 "name": "SecundarioVioleta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -319,7 +319,7 @@
                 "name": "SecundarioVioletaDesabilitado",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -329,7 +329,7 @@
                 "name": "Terciario",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -339,7 +339,7 @@
                 "name": "TerciarioDesabilitado",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -349,7 +349,7 @@
                 "name": "TerciarioVioleta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -359,7 +359,7 @@
                 "name": "TerciarioVioletaDesabilitado",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -373,7 +373,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<ButtonComponent>",
-                "file": "libs/storybook-host/src/button.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -384,7 +384,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<InputComponent>",
-                "file": "libs/storybook-host/src/input.component.stories.ts",
+                "file": "libs/storybook-host/src/stories/input.component.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -424,15 +424,15 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "StorybookConfig",
-                    "defaultValue": "{\n  stories: ['../**/*.stories.@(js|jsx|ts|tsx|mdx)'],\n  addons: ['@storybook/addon-essentials', '@storybook/addon-interactions'],\n  framework: {\n    name: '@storybook/angular',\n    options: {},\n  },\n  docs: {\n    autodocs: true,\n    defaultName: 'Documentação',\n  }\n}"
+                    "defaultValue": "{\n  stories: ['../src/stories/*.stories.@(js|jsx|ts|tsx|mdx)'],\n  addons: ['@storybook/addon-essentials', '@storybook/addon-interactions'],\n  framework: {\n    name: '@storybook/angular',\n    options: {},\n  },\n  docs: {\n    autodocs: true,\n    defaultName: 'Documentação',\n  }\n}"
                 }
             ],
-            "libs/storybook-host/src/button.component.stories.ts": [
+            "libs/storybook-host/src/stories/button.component.stories.ts": [
                 {
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<ButtonComponent>",
@@ -442,7 +442,7 @@
                     "name": "Primario",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -452,7 +452,7 @@
                     "name": "PrimarioDesabilitado",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -462,7 +462,7 @@
                     "name": "PrimarioVioleta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -472,7 +472,7 @@
                     "name": "PrimarioVioletaDesabilitado",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -482,7 +482,7 @@
                     "name": "Secundario",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -492,7 +492,7 @@
                     "name": "SecundarioDesabilitado",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -502,7 +502,7 @@
                     "name": "SecundarioVioleta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -512,7 +512,7 @@
                     "name": "SecundarioVioletaDesabilitado",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -522,7 +522,7 @@
                     "name": "Terciario",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -532,7 +532,7 @@
                     "name": "TerciarioDesabilitado",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -542,7 +542,7 @@
                     "name": "TerciarioVioleta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -552,19 +552,19 @@
                     "name": "TerciarioVioletaDesabilitado",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
                     "defaultValue": "{\n  args: {\n    ...TerciarioVioleta.args,\n    desabilitado: true,\n  }\n}"
                 }
             ],
-            "libs/storybook-host/src/input.component.stories.ts": [
+            "libs/storybook-host/src/stories/input.component.stories.ts": [
                 {
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/input.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/input.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<InputComponent>",
@@ -574,7 +574,7 @@
                     "name": "Primary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "libs/storybook-host/src/input.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/input.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -585,26 +585,26 @@
         "groupedFunctions": {},
         "groupedEnumerations": {},
         "groupedTypeAliases": {
-            "libs/storybook-host/src/button.component.stories.ts": [
+            "libs/storybook-host/src/stories/button.component.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<ButtonComponent>",
-                    "file": "libs/storybook-host/src/button.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/button.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "libs/storybook-host/src/input.component.stories.ts": [
+            "libs/storybook-host/src/stories/input.component.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<InputComponent>",
-                    "file": "libs/storybook-host/src/input.component.stories.ts",
+                    "file": "libs/storybook-host/src/stories/input.component.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -671,7 +671,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -681,7 +681,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -691,7 +691,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -701,7 +701,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -711,7 +711,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -721,7 +721,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -731,7 +731,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -741,7 +741,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -751,7 +751,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -761,7 +761,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -771,7 +771,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -781,7 +781,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -791,7 +791,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/button.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/button.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -801,7 +801,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/input.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/input.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -811,7 +811,7 @@
                 "status": "low"
             },
             {
-                "filePath": "libs/storybook-host/src/input.component.stories.ts",
+                "filePath": "libs/storybook-host/src/stories/input.component.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",

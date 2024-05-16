@@ -12,7 +12,6 @@
     "../src/**/*.stories.jsx",
     "../src/**/*.stories.tsx",
     "../src/**/*.stories.mdx",
-    "../src/stories/.stories.ts",
     "../../**/src/lib/**/*.component.ts",
     "*.js",
     "*.ts"
