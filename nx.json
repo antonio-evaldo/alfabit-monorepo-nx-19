@@ -66,6 +66,6 @@
   },
   "nxCloudAccessToken": "MmFmMjQ2YmUtMjRlZC00YmQ5LWI1YWItN2UyYWYwZDNhZWRjfHJlYWQtd3JpdGU=",
   "release": {
-    "projects": ["libs/button"]
+    "projects": ["libs/button", "libs/input"]
   }
 }
