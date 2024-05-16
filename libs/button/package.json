@@ -1,5 +1,5 @@
 {
-  "name": "@org-test/button",
+  "name": "@org-teste/button",
   "version": "0.0.2",
   "peerDependencies": {
     "@angular/common": "^17.3.0",

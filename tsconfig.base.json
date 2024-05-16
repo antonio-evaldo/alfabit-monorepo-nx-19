@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@org-test/button": ["libs/button/src/index.ts"]
+      "@org-teste/button": ["libs/button/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
