@@ -65,6 +65,17 @@
     }
   },
   "nxCloudAccessToken": "MmFmMjQ2YmUtMjRlZC00YmQ5LWI1YWItN2UyYWYwZDNhZWRjfHJlYWQtd3JpdGU=",
+  "plugins": [
+    {
+      "plugin": "@nx/storybook/plugin",
+      "options": {
+        "serveStorybookTargetName": "storybook",
+        "buildStorybookTargetName": "build-storybook",
+        "testStorybookTargetName": "test-storybook",
+        "staticStorybookTargetName": "static-storybook"
+      }
+    }
+  ],
   "release": {
     "projects": ["libs/button", "libs/input"]
   }
