@@ -64,5 +64,8 @@
       "style": "css"
     }
   },
-  "nxCloudAccessToken": "MmFmMjQ2YmUtMjRlZC00YmQ5LWI1YWItN2UyYWYwZDNhZWRjfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "MmFmMjQ2YmUtMjRlZC00YmQ5LWI1YWItN2UyYWYwZDNhZWRjfHJlYWQtd3JpdGU=",
+  "release": {
+    "projects": ["libs/button"]
+  }
 }
