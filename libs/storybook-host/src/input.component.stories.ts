@@ -3,7 +3,7 @@ import { InputComponent } from '../../input/src/lib/input/input.component';
 
 const meta: Meta<InputComponent> = {
   component: InputComponent,
-  title: 'InputComponent',
+  title: 'Input',
 };
 export default meta;
 type Story = StoryObj<InputComponent>;
