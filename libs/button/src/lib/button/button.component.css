@@ -1,0 +1,87 @@
+button {
+  background: var(--cor-primaria, #2D5BFF);
+  color: var(--branco, #FFF);
+  padding: 12px 32px 12px 32px;
+  border-radius: 8px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  transition: color .3s, background-color .3s;
+}
+
+button.disabled {
+  cursor: not-allowed;
+}
+
+button:focus {
+  outline-color: #AF4BFE;
+}
+
+button.primario:hover {
+  background: var(--cor-hover, #1B4AF0);
+  color: var(--branco, #FFF);
+}
+
+button.primario:active {
+  background: var(--cor-click, #002ED0);
+  color: var(--branco, #FFF);
+}
+
+button.primario:disabled {
+  background: var(--bg-desativado, #EFEFEF);
+  color: var(--texto-desativado, #8A8A8A);
+}
+
+button.secundario {
+  background: var(--cor-quaternaria, #ECF0FF);
+  color: var(--cor-primaria, #2D5BFF);
+}
+
+button.secundario:hover {
+  background: var(--cor-hover, #1B4AF0);
+  color: var(--branco, #FFF);
+}
+
+button.secundario:active {
+  background: var(--cor-click, #002ED0);
+  color: var(--branco, #FFF);
+}
+
+button.secundario:disabled {
+  background: var(--bg-desativado, #EFEFEF);
+  color: var(--texto-desativado, #8A8A8A);
+}
+
+button.terciario {
+  background: var(--branco, #FFF);
+  color: var(--cor-primaria, #2D5BFF);
+}
+
+button.terciario:hover {
+  background: var(--branco, #FFF);
+  color: var(--cor-hover, #1B4AF0);
+}
+
+button.terciario:active {
+  background: var(--branco, #FFF);
+  color: var(--cor-click, #002ED0);
+}
+
+button.terciario.disabled {
+  background: var(--branco, #FFF);
+  color: var(--texto-desativado, #8A8A8A);
+}
+
+.violeta {
+  --cor-primaria: #AF4BFE;
+  --cor-secundaria: #BE74F9;
+  --cor-terciaria: #E2BDFF;
+  --cor-quaternaria: #F5E8FF;
+  /* As duas cores abaixo não foram definidas no figma: */
+  --cor-hover: #a530ff;
+  --cor-click: #8e25df;
+}
