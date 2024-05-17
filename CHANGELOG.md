@@ -4,6 +4,7 @@
 ### Documentation changes
 
 - **button:** Atualizando documentação ([34cb87d](https://github.com/antonio-evaldo/alfabit-monorepo-nx-19/commit/34cb87d))
+- **button:** Atualizando documentação ([212262b](https://github.com/antonio-evaldo/alfabit-monorepo-nx-19/commit/212262b))
 - **input:** atualizando documentação ([86cf1cf](https://github.com/antonio-evaldo/alfabit-monorepo-nx-19/commit/86cf1cf))
 
 ### ❤️  Thank You
