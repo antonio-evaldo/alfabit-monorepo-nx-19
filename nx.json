@@ -92,6 +92,16 @@
     "projects": ["libs/button", "libs/input", "libs/teste"],
     "version": {
       "conventionalCommits": true
+    },
+    "conventionalCommits": {
+      "types": {
+        "docs": {
+          "semverBump": "patch",
+          "changelog": {
+            "title": "Documentation changes"
+          }
+        }
+      }
     }
   }
 }

@@ -1,3 +1,15 @@
+## 0.3.1 (2024-05-17)
+
+
+### Documentation changes
+
+- **button:** Atualizando documentação ([34cb87d](https://github.com/antonio-evaldo/alfabit-monorepo-nx-19/commit/34cb87d))
+- **input:** atualizando documentação ([86cf1cf](https://github.com/antonio-evaldo/alfabit-monorepo-nx-19/commit/86cf1cf))
+
+### ❤️  Thank You
+
+- Antônio Evaldo @antonio-evaldo
+
 ## 0.3.0 (2024-05-17)
 
 
