@@ -9,5 +9,8 @@ import { CommonModule } from '@angular/common';
   styleUrl: './input.component.css',
 })
 export class InputComponent {
+  /**
+   * Determina se será um `<input>` ou `<textarea>`.
+   */
   @Input() multilinha = false;
 }
