@@ -1,3 +1,14 @@
+## 0.3.0 (2024-05-17)
+
+
+### 🚀 Features
+
+- **button:** atualizando docs do botão ([e21b8bc](https://github.com/antonio-evaldo/alfabit-monorepo-nx-19/commit/e21b8bc))
+
+### ❤️  Thank You
+
+- Antônio Evaldo @antonio-evaldo
+
 ## 0.2.0 (2024-05-17)
 
 This was a version bump only, there were no code changes.
