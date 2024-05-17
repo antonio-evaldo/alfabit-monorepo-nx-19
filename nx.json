@@ -53,6 +53,12 @@
     },
     "build-storybook": {
       "cache": true
+    },
+    "nx-release-publish": {
+      "dependsOn": ["build"],
+      "options": {
+        "packageRoot": "{workspaceRoot}/dist/{projectRoot}"
+      }
     }
   },
   "generators": {
