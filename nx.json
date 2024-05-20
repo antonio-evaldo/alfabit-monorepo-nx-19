@@ -102,6 +102,11 @@
           }
         }
       }
+    },
+    "changelog": {
+      "workspaceChangelog": {
+        "createRelease": "github"
+      }
     }
   }
 }
