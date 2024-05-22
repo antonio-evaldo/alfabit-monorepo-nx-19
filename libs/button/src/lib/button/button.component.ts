@@ -14,7 +14,7 @@ type temas = 'azul' | 'violeta';
 export class ButtonComponent {
 
   /**
-   * Texto atualizado do botão.
+   * Texto do botão.
    */
   @Input() texto = '';
   @Input() desabilitado = false;

@@ -92,8 +92,7 @@
     "projects": ["libs/button", "libs/input"],
     "projectsRelationship": "independent",
     "changelog": {
-      "projectChangelogs": true,
-      "workspaceChangelog": {
+      "projectChangelogs": {
         "createRelease": "github"
       }
     },
