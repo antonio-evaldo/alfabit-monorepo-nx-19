@@ -89,7 +89,14 @@
     }
   ],
   "release": {
-    "projects": ["libs/button", "libs/input", "libs/teste"],
+    "projects": ["libs/button", "libs/input"],
+    "projectsRelationship": "independent",
+    "changelog": {
+      "projectChangelogs": true,
+      "workspaceChangelog": {
+        "createRelease": "github"
+      }
+    },
     "version": {
       "conventionalCommits": true
     },
@@ -101,11 +108,6 @@
             "title": "Documentation changes"
           }
         }
-      }
-    },
-    "changelog": {
-      "workspaceChangelog": {
-        "createRelease": "github"
       }
     }
   }
