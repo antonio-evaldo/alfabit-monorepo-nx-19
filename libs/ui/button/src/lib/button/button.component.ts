@@ -12,7 +12,6 @@ type temas = 'azul' | 'violeta';
   styleUrl: './button.component.css',
 })
 export class ButtonComponent {
-
   /**
    * Texto do botão.
    */
@@ -21,10 +20,14 @@ export class ButtonComponent {
   @Input() variante: variantes = 'primario';
   @Input() tema: temas = 'azul';
 
-  obterVariante(variante: variantes, desabilitado: boolean, tema: temas): string {
+  obterVariante(
+    variante: variantes,
+    desabilitado: boolean,
+    tema: temas
+  ): string {
     let classes = `${variante} ${tema}`;
 
-    classes += desabilitado ? " disabled" : "";
+    classes += desabilitado ? ' disabled' : '';
 
     return classes;
   }

@@ -89,7 +89,7 @@
     }
   ],
   "release": {
-    "projects": ["libs/button", "libs/input"],
+    "projects": ["libs/ui/*"],
     "projectsRelationship": "independent",
     "changelog": {
       "projectChangelogs": true
