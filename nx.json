@@ -89,7 +89,11 @@
     }
   ],
   "release": {
-    "projects": ["libs/button", "libs/input"],
+    "projects": [
+      "libs/button",
+      "libs/input",
+      "libs/teste-buildable-publishable"
+    ],
     "projectsRelationship": "independent",
     "changelog": {
       "projectChangelogs": {

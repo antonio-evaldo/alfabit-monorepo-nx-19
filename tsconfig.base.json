@@ -18,6 +18,9 @@
       "@alfabit-monorepo-nx-19/storybook-host": [
         "libs/storybook-host/src/index.ts"
       ],
+      "@org-test/teste-buildable-publishable": [
+        "libs/teste-buildable-publishable/src/index.ts"
+      ],
       "@org-teste/button": ["libs/button/src/index.ts"],
       "@org-teste/input": ["libs/input/src/index.ts"],
       "@org-teste/teste": ["libs/teste/src/index.ts"]
