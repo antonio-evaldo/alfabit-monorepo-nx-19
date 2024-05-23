@@ -92,9 +92,7 @@
     "projects": ["libs/button", "libs/input"],
     "projectsRelationship": "independent",
     "changelog": {
-      "projectChangelogs": {
-        "createRelease": "github"
-      }
+      "projectChangelogs": true
     },
     "version": {
       "conventionalCommits": true
