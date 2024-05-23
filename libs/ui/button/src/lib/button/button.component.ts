@@ -20,7 +20,7 @@ export class ButtonComponent {
   @Input() variante: variantes = 'primario';
   @Input() tema: temas = 'azul';
 
-  obterClasses(variante: variantes, tema: temas): string {
-    return `${variante} ${tema}`;
+  obterClasses(): string {
+    return `${this.variante} ${this.tema}`;
   }
 }
