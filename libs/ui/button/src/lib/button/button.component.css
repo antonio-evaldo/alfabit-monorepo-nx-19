@@ -13,7 +13,7 @@ button {
   transition: color 0.3s, background-color 0.3s;
 }
 
-button.disabled {
+button:disabled {
   cursor: not-allowed;
 }
 
@@ -71,7 +71,7 @@ button.terciario:active {
   color: var(--cor-click, #002ed0);
 }
 
-button.terciario.disabled {
+button.terciario:disabled {
   background: var(--branco, #fff);
   color: var(--texto-desativado, #8a8a8a);
 }
