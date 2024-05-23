@@ -21,6 +21,10 @@
   line-height: 1.125rem;
 }
 
+.input:disabled {
+  cursor: not-allowed;
+}
+
 .input::placeholder {
   color: var(--texto-secundario, #5C5C5C);
 }
@@ -32,3 +36,9 @@
 .input:focus {
   outline: 1px solid var(--cor-primaria, #af4bfe);
 }
+
+.input:disabled {
+  outline: 1px solid var(--texto-desativado, #8A8A8A);
+  background: var(--bg-desativado, #EFEFEF);
+}
+

@@ -13,4 +13,5 @@ export class InputComponent {
    * Determina se será um `<input>` ou `<textarea>`.
    */
   @Input() multilinha = false;
+  @Input() desabilitado = false;
 }

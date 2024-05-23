@@ -4,12 +4,15 @@
   type="text"
   placeholder="Text"
   class="input"
+  [disabled]="desabilitado"
 />
 
 } @else {
 
 <textarea
   class="input"
+  placeholder="Text"
+  [disabled]="desabilitado"
 ></textarea>
 
 }
