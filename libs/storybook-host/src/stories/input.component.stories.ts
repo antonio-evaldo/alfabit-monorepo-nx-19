@@ -12,6 +12,7 @@ export const Primary: Story = {
   args: {
     multilinha: false,
     desabilitado: false,
-    erro: false
+    invalido: false,
+    mensagemDeErro: 'Mensagem de erro!'
   },
 };

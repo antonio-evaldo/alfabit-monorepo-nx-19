@@ -20,7 +20,12 @@ export class InputComponent {
   @Input() desabilitado = false;
 
   /**
-   * Indica visualmente que o Input está inválido e define o `aria-invalid`.
+   * Se definido para `true`, indica visualmente que o Input está inválido e define `aria-invalid="true"`. Defina esse atributo apenas em validações personalizadas. Quando possível, utilize a validação nativa do HTML.
    */
-  @Input() erro = false;
+  @Input() invalido = false;
+
+  /**
+   * Mensagem de erro para quando o Input for inválido.
+   */
+  @Input() mensagemDeErro = '';
 }
