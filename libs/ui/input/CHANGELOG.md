@@ -1,3 +1,15 @@
+## 0.5.1 (2024-05-24)
+
+
+### Refactoring
+
+- adiciona prefixo `ab-` nas variáveis CSS
+
+
+### ❤️  Thank You
+
+- Antônio Evaldo
+
 ## 0.5.0 (2024-05-24)
 
 
