@@ -15,88 +15,88 @@ const meta: Meta<ButtonComponent> = {
 export default meta;
 type Story = StoryObj<ButtonComponent>;
 
-export const Primario: Story = {
+export const Primary: Story = {
   args: {
-    texto: 'Action',
-    desabilitado: false,
-    variante: 'primario',
-    tema: 'azul'
+    text: 'Action',
+    disabled: false,
+    variant: 'primary',
+    theme: 'blue'
   }
 };
 
-export const PrimarioDesabilitado: Story = {
+export const PrimaryDisabled: Story = {
   args: {
-    ...Primario.args,
-    desabilitado: true,
+    ...Primary.args,
+    disabled: true,
   }
 }
 
-export const Secundario: Story = {
+export const Secondary: Story = {
   args: {
-    ...Primario.args,
-    variante: 'secundario',
+    ...Primary.args,
+    variant: 'secondary',
   }
 };
 
-export const SecundarioDesabilitado: Story = {
+export const SecondaryDisabled: Story = {
   args: {
-    ...Secundario.args,
-    desabilitado: true,
+    ...Secondary.args,
+    disabled: true,
   }
 }
 
-export const Terciario: Story = {
+export const Tertiary: Story = {
   args: {
-    ...Primario.args,
-    variante: 'terciario',
+    ...Primary.args,
+    variant: 'tertiary',
   }
 };
 
-export const TerciarioDesabilitado: Story = {
+export const TertiaryDisabled: Story = {
   args: {
-    ...Terciario.args,
-    desabilitado: true,
+    ...Tertiary.args,
+    disabled: true,
   }
 };
 
-export const PrimarioVioleta: Story = {
+export const PrimaryViolet: Story = {
   args: {
-    ...Primario.args,
-    tema: 'violeta'
+    ...Primary.args,
+    theme: 'violet'
   }
 };
 
-export const PrimarioVioletaDesabilitado: Story = {
+export const PrimaryVioletDisabled: Story = {
   args: {
-    ...PrimarioVioleta.args,
-    desabilitado: true
+    ...PrimaryViolet.args,
+    disabled: true
   }
 };
 
-export const SecundarioVioleta: Story = {
+export const SecondaryViolet: Story = {
   args: {
-    ...PrimarioVioleta.args,
-    variante: 'secundario',
+    ...PrimaryViolet.args,
+    variant: 'secondary',
   }
 };
 
-export const SecundarioVioletaDesabilitado: Story = {
+export const SecondaryVioletDisabled: Story = {
   args: {
-    ...SecundarioVioleta.args,
-    desabilitado: true,
+    ...SecondaryViolet.args,
+    disabled: true,
   }
 };
 
-export const TerciarioVioleta: Story = {
+export const TertiaryViolet: Story = {
   args: {
-    ...PrimarioVioleta.args,
-    variante: 'terciario',
+    ...PrimaryViolet.args,
+    variant: 'tertiary',
   }
 };
 
-export const TerciarioVioletaDesabilitado: Story = {
+export const TertiaryVioletDisabled: Story = {
   args: {
-    ...TerciarioVioleta.args,
-    desabilitado: true,
+    ...TertiaryViolet.args,
+    disabled: true,
   }
 };

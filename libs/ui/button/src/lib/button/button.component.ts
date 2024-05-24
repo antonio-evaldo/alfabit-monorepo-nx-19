@@ -1,8 +1,8 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-type variantes = 'primario' | 'secundario' | 'terciario';
-type temas = 'azul' | 'violeta';
+type variants = 'primary' | 'secondary' | 'tertiary';
+type themes = 'blue' | 'violet';
 
 @Component({
   selector: 'org-teste-button',
@@ -15,12 +15,12 @@ export class ButtonComponent {
   /**
    * Texto do botão.
    */
-  @Input() texto = '';
-  @Input() desabilitado = false;
-  @Input() variante: variantes = 'primario';
-  @Input() tema: temas = 'azul';
+  @Input() text = '';
+  @Input() disabled = false;
+  @Input() variant: variants = 'primary';
+  @Input() theme: themes = 'blue';
 
-  obterClasses(): string {
-    return `${this.variante} ${this.tema}`;
+  getClasses(): string {
+    return `${this.variant} ${this.theme}`;
   }
 }

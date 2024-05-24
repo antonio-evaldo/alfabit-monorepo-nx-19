@@ -1,5 +1,5 @@
 button {
-  background: var(--cor-primaria, #2d5bff);
+  background: var(--color-primary, #2d5bff);
   color: var(--branco, #fff);
   padding: 0.75rem 2rem 0.75rem 2rem;
   border-radius: 0.5rem;
@@ -21,67 +21,67 @@ button:focus {
   outline-color: #af4bfe;
 }
 
-button.primario:hover {
-  background: var(--cor-hover, #1b4af0);
+button.primary:hover {
+  background: var(--color-hover, #1b4af0);
   color: var(--branco, #fff);
 }
 
-button.primario:active {
-  background: var(--cor-click, #002ed0);
+button.primary:active {
+  background: var(--color-click, #002ed0);
   color: var(--branco, #fff);
 }
 
-button.primario:disabled {
+button.primary:disabled {
   background: var(--bg-desativado, #efefef);
   color: var(--texto-desativado, #8a8a8a);
 }
 
-button.secundario {
-  background: var(--cor-quaternaria, #ecf0ff);
-  color: var(--cor-primaria, #2d5bff);
+button.secondary {
+  background: var(--color-quaternary, #ecf0ff);
+  color: var(--color-primary, #2d5bff);
 }
 
-button.secundario:hover {
-  background: var(--cor-hover, #1b4af0);
+button.secondary:hover {
+  background: var(--color-hover, #1b4af0);
   color: var(--branco, #fff);
 }
 
-button.secundario:active {
-  background: var(--cor-click, #002ed0);
+button.secondary:active {
+  background: var(--color-click, #002ed0);
   color: var(--branco, #fff);
 }
 
-button.secundario:disabled {
+button.secondary:disabled {
   background: var(--bg-desativado, #efefef);
   color: var(--texto-desativado, #8a8a8a);
 }
 
-button.terciario {
+button.tertiary {
   background: var(--branco, #fff);
-  color: var(--cor-primaria, #2d5bff);
+  color: var(--color-primary, #2d5bff);
 }
 
-button.terciario:hover {
+button.tertiary:hover {
   background: var(--branco, #fff);
-  color: var(--cor-hover, #1b4af0);
+  color: var(--color-hover, #1b4af0);
 }
 
-button.terciario:active {
+button.tertiary:active {
   background: var(--branco, #fff);
-  color: var(--cor-click, #002ed0);
+  color: var(--color-click, #002ed0);
 }
 
-button.terciario:disabled {
+button.tertiary:disabled {
   background: var(--branco, #fff);
   color: var(--texto-desativado, #8a8a8a);
 }
 
-.violeta {
-  --cor-primaria: #af4bfe;
-  --cor-secundaria: #be74f9;
-  --cor-terciaria: #e2bdff;
-  --cor-quaternaria: #f5e8ff;
+.violet {
+  --color-primary: #af4bfe;
+  --color-secondary: #be74f9;
+  --color-tertiary: #e2bdff;
+  --color-quaternary: #f5e8ff;
   /* As duas cores abaixo não foram definidas no figma: */
-  --cor-hover: #a530ff;
-  --cor-click: #8e25df;
+  --color-hover: #a530ff;
+  --color-click: #8e25df;
 }
