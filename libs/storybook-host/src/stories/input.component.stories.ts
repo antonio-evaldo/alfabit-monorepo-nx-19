@@ -10,46 +10,46 @@ type Story = StoryObj<InputComponent>;
 
 export const Default: Story = {
   args: {
-    multilinha: false,
-    desabilitado: false,
-    invalido: false,
-    mensagemDeErro: '',
+    multiline: false,
+    disabled: false,
+    invalid: false,
+    errorMessage: '',
   },
 };
 
 export const Disabled: Story = {
   args: {
     ...Default.args,
-    desabilitado: true
+    disabled: true
   },
 };
 
 export const Invalid: Story = {
   args: {
     ...Default.args,
-    invalido: true,
-    mensagemDeErro: 'Mensagem de erro!',
+    invalid: true,
+    errorMessage: 'Mensagem de erro!',
   },
 };
 
 export const Multiline: Story = {
   args: {
     ...Default.args,
-    multilinha: true
+    multiline: true
   },
 };
 
 export const MultilineDisabled: Story = {
   args: {
     ...Multiline.args,
-    desabilitado: true
+    disabled: true
   },
 };
 
 export const MultilineInvalid: Story = {
   args: {
     ...Multiline.args,
-    invalido: true,
-    mensagemDeErro: 'Mensagem de erro!',
+    invalid: true,
+    errorMessage: 'Mensagem de erro!',
   },
 };

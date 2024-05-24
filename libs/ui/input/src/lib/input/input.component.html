@@ -1,11 +1,11 @@
-@if (!multilinha) {
+@if (!multiline) {
 
 <input
   type="text"
   placeholder="Text"
   class="input"
-  [disabled]="desabilitado"
-  [attr.aria-invalid]="invalido"
+  [disabled]="disabled"
+  [attr.aria-invalid]="invalid"
   aria-errormessage="elementoMensagemDeErro"
 />
 
@@ -14,17 +14,17 @@
 <textarea
   placeholder="Text"
   class="input"
-  [disabled]="desabilitado"
-  [attr.aria-invalid]="invalido"
+  [disabled]="disabled"
+  [attr.aria-invalid]="invalid"
   aria-errormessage="elementoMensagemDeErro"
 ></textarea>
 
 }
 
-@if (invalido) {
+@if (invalid) {
 
 <span id="elementoMensagemDeErro" aria-live="polite">
-  {{ mensagemDeErro }}
+  {{ errorMessage }}
 </span>
 
 }
