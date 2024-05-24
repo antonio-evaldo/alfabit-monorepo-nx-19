@@ -10,9 +10,9 @@
 
   border-radius: 0.5rem;
   border: 0;
-  background: var(--boxes-inputs, #F8F8F8);
+  background: var(--ab-boxes-inputs, #F8F8F8);
 
-  color: var(--texto-primario, #181818);
+  color: var(--ab-texto-primario, #181818);
   font-family: sans-serif;
   font-size: 0.875rem;
   font-style: normal;
@@ -25,23 +25,23 @@
 }
 
 .input::placeholder {
-  color: var(--texto-secundario, #5C5C5C);
+  color: var(--ab-texto-secundario, #5C5C5C);
 }
 
 .input:hover {
-  outline: 1px solid var(--cor-hover, #1B4AF0);
+  outline: 1px solid var(--ab-cor-hover, #1B4AF0);
 }
 
 .input:focus {
-  outline: 1px solid var(--cor-primaria, #af4bfe);
+  outline: 1px solid var(--ab-cor-primaria, #af4bfe);
 }
 
 .input[aria-invalid="true"] {
-  outline: 1px solid var(--cor-erro, #FF3030);
-  background: var(--cor-erro-bg, #FFF2F2);
+  outline: 1px solid var(--ab-cor-erro, #FF3030);
+  background: var(--ab-cor-erro-bg, #FFF2F2);
 }
 
 .input:disabled {
-  outline: 1px solid var(--texto-desativado, #8A8A8A);
-  background: var(--bg-desativado, #EFEFEF);
+  outline: 1px solid var(--ab-texto-desativado, #8A8A8A);
+  background: var(--ab-bg-desativado, #EFEFEF);
 }

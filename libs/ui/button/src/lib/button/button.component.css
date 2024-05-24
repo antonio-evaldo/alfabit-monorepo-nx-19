@@ -1,6 +1,6 @@
 button {
-  background: var(--color-primary, #2d5bff);
-  color: var(--branco, #fff);
+  background: var(--ab-color-primary, #2d5bff);
+  color: var(--ab-branco, #fff);
   padding: 0.75rem 2rem 0.75rem 2rem;
   border-radius: 0.5rem;
   border: none;
@@ -18,71 +18,71 @@ button:disabled {
 }
 
 button:focus {
-  outline-color: var(--color-focus, #af4bfe);
+  outline-color: var(--ab-color-focus, #af4bfe);
 }
 
 button.primary:hover {
-  background: var(--color-hover, #1b4af0);
-  color: var(--branco, #fff);
+  background: var(--ab-color-hover, #1b4af0);
+  color: var(--ab-branco, #fff);
 }
 
 button.primary:active {
-  background: var(--color-click, #002ed0);
-  color: var(--branco, #fff);
+  background: var(--ab-color-click, #002ed0);
+  color: var(--ab-branco, #fff);
 }
 
 button.primary:disabled {
-  background: var(--bg-desativado, #efefef);
-  color: var(--texto-desativado, #8a8a8a);
+  background: var(--ab-bg-desativado, #efefef);
+  color: var(--ab-texto-desativado, #8a8a8a);
 }
 
 button.secondary {
-  background: var(--color-quaternary, #ecf0ff);
-  color: var(--color-primary, #2d5bff);
+  background: var(--ab-color-quaternary, #ecf0ff);
+  color: var(--ab-color-primary, #2d5bff);
 }
 
 button.secondary:hover {
-  background: var(--color-hover, #1b4af0);
-  color: var(--branco, #fff);
+  background: var(--ab-color-hover, #1b4af0);
+  color: var(--ab-branco, #fff);
 }
 
 button.secondary:active {
-  background: var(--color-click, #002ed0);
-  color: var(--branco, #fff);
+  background: var(--ab-color-click, #002ed0);
+  color: var(--ab-branco, #fff);
 }
 
 button.secondary:disabled {
-  background: var(--bg-desativado, #efefef);
-  color: var(--texto-desativado, #8a8a8a);
+  background: var(--ab-bg-desativado, #efefef);
+  color: var(--ab-texto-desativado, #8a8a8a);
 }
 
 button.tertiary {
-  background: var(--branco, #fff);
-  color: var(--color-primary, #2d5bff);
+  background: var(--ab-branco, #fff);
+  color: var(--ab-color-primary, #2d5bff);
 }
 
 button.tertiary:hover {
-  background: var(--branco, #fff);
-  color: var(--color-hover, #1b4af0);
+  background: var(--ab-branco, #fff);
+  color: var(--ab-color-hover, #1b4af0);
 }
 
 button.tertiary:active {
-  background: var(--branco, #fff);
-  color: var(--color-click, #002ed0);
+  background: var(--ab-branco, #fff);
+  color: var(--ab-color-click, #002ed0);
 }
 
 button.tertiary:disabled {
-  background: var(--branco, #fff);
-  color: var(--texto-desativado, #8a8a8a);
+  background: var(--ab-branco, #fff);
+  color: var(--ab-texto-desativado, #8a8a8a);
 }
 
 .violet {
-  --color-primary: #af4bfe;
-  --color-secondary: #be74f9;
-  --color-tertiary: #e2bdff;
-  --color-quaternary: #f5e8ff;
+  --ab-color-primary: #af4bfe;
+  --ab-color-secondary: #be74f9;
+  --ab-color-tertiary: #e2bdff;
+  --ab-color-quaternary: #f5e8ff;
   /* As duas cores abaixo não foram definidas no figma: */
-  --color-hover: #a530ff;
-  --color-click: #8e25df;
-  --color-focus: #2d5bff;
+  --ab-color-hover: #a530ff;
+  --ab-color-click: #8e25df;
+  --ab-color-focus: #2d5bff;
 }
