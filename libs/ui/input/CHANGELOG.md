@@ -1,3 +1,22 @@
+## 0.5.0 (2024-05-24)
+
+
+### 🚀 Features
+
+- **input:** adiciona estado de erro
+
+- **input:** adiciona mensagem de erro para input inválido
+
+
+### Refactoring
+
+- **input:** renomeando variáveis para inglês
+
+
+### ❤️  Thank You
+
+- Antônio Evaldo
+
 ## 0.4.0 (2024-05-23)
 
 

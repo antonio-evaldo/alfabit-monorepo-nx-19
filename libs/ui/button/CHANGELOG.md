@@ -1,3 +1,20 @@
+## 0.4.4 (2024-05-24)
+
+
+### 🩹 Fixes
+
+- **button:** mudando cor de foco para botão violeta
+
+
+### Refactoring
+
+- **button:** renomeando variáveis para inglês
+
+
+### ❤️  Thank You
+
+- Antônio Evaldo
+
 ## 0.4.3 (2024-05-23)
 
 
