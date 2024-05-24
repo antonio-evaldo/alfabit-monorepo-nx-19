@@ -18,7 +18,7 @@ button:disabled {
 }
 
 button:focus {
-  outline-color: #af4bfe;
+  outline-color: var(--color-focus, #af4bfe);
 }
 
 button.primary:hover {
@@ -84,4 +84,5 @@ button.tertiary:disabled {
   /* As duas cores abaixo não foram definidas no figma: */
   --color-hover: #a530ff;
   --color-click: #8e25df;
+  --color-focus: #2d5bff;
 }
