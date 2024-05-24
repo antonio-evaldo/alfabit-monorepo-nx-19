@@ -11,6 +11,7 @@ type Story = StoryObj<InputComponent>;
 export const Primary: Story = {
   args: {
     multilinha: false,
-    desabilitado: false
+    desabilitado: false,
+    erro: false
   },
 };

@@ -13,5 +13,14 @@ export class InputComponent {
    * Determina se será um `<input>` ou `<textarea>`.
    */
   @Input() multilinha = false;
+
+  /**
+   * Desabilita o Input.
+   */
   @Input() desabilitado = false;
+
+  /**
+   * Indica visualmente que o Input está inválido e define o `aria-invalid`.
+   */
+  @Input() erro = false;
 }

@@ -1,5 +1,4 @@
 .input {
-  font-family: sans-serif;
   box-sizing: border-box;
   display: flex;
   width: 15.625rem;
@@ -37,8 +36,12 @@
   outline: 1px solid var(--cor-primaria, #af4bfe);
 }
 
+.input[aria-invalid="true"] {
+  outline: 1px solid var(--cor-erro, #FF3030);
+  background: var(--cor-erro-bg, #FFF2F2);
+}
+
 .input:disabled {
   outline: 1px solid var(--texto-desativado, #8A8A8A);
   background: var(--bg-desativado, #EFEFEF);
 }
-

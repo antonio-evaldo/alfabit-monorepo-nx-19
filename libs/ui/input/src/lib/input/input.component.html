@@ -5,14 +5,16 @@
   placeholder="Text"
   class="input"
   [disabled]="desabilitado"
+  [attr.aria-invalid]="erro"
 />
 
 } @else {
 
 <textarea
-  class="input"
   placeholder="Text"
+  class="input"
   [disabled]="desabilitado"
+  [attr.aria-invalid]="erro"
 ></textarea>
 
 }
