@@ -1,3 +1,22 @@
+## 0.4.3 (2024-05-23)
+
+
+### 🩹 Fixes
+
+- **button:** usa valores `rem` no CSS
+
+
+### Refactoring
+
+- **button:** refatora CSS do estado desabilitado
+
+- **button:** usa propriedades em vez de parâmetros
+
+
+### ❤️  Thank You
+
+- Antônio Evaldo
+
 ## 0.4.2 (2024-05-22)
 
 ### 🩹 Fixes

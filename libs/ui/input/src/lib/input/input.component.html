@@ -1,5 +1,30 @@
 @if (!multilinha) {
-<input type="text" />
+
+<input
+  type="text"
+  placeholder="Text"
+  class="input"
+  [disabled]="desabilitado"
+  [attr.aria-invalid]="invalido"
+  aria-errormessage="elementoMensagemDeErro"
+/>
+
 } @else {
-<textarea></textarea>
+
+<textarea
+  placeholder="Text"
+  class="input"
+  [disabled]="desabilitado"
+  [attr.aria-invalid]="invalido"
+  aria-errormessage="elementoMensagemDeErro"
+></textarea>
+
+}
+
+@if (invalido) {
+
+<span id="elementoMensagemDeErro" aria-live="polite">
+  {{ mensagemDeErro }}
+</span>
+
 }

@@ -104,6 +104,12 @@
           "changelog": {
             "title": "Documentation changes"
           }
+        },
+        "refactor": {
+          "semverBump": "patch",
+          "changelog": {
+            "title": "Refactoring"
+          }
         }
       }
     }
