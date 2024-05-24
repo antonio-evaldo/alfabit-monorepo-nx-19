@@ -5,8 +5,8 @@
   placeholder="Text"
   class="input"
   [disabled]="desabilitado"
-    [attr.aria-invalid]="invalido"
-    aria-errormessage="elementoMensagemDeErro"
+  [attr.aria-invalid]="invalido"
+  aria-errormessage="elementoMensagemDeErro"
 />
 
 } @else {
@@ -15,14 +15,16 @@
   placeholder="Text"
   class="input"
   [disabled]="desabilitado"
-    [attr.aria-invalid]="invalido"
-    aria-errormessage="elementoMensagemDeErro"
+  [attr.aria-invalid]="invalido"
+  aria-errormessage="elementoMensagemDeErro"
 ></textarea>
 
 }
 
 @if (invalido) {
-  <span id="elementoMensagemDeErro" aria-live="polite">
-    {{ mensagemDeErro }}
-  </span>
+
+<span id="elementoMensagemDeErro" aria-live="polite">
+  {{ mensagemDeErro }}
+</span>
+
 }
