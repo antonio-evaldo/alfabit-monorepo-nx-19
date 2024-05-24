@@ -8,11 +8,48 @@ const meta: Meta<InputComponent> = {
 export default meta;
 type Story = StoryObj<InputComponent>;
 
-export const Primary: Story = {
+export const Default: Story = {
   args: {
     multilinha: false,
     desabilitado: false,
     invalido: false,
-    mensagemDeErro: 'Mensagem de erro!'
+    mensagemDeErro: '',
+  },
+};
+
+export const Disabled: Story = {
+  args: {
+    ...Default.args,
+    desabilitado: true
+  },
+};
+
+export const Invalid: Story = {
+  args: {
+    ...Default.args,
+    invalido: true,
+    mensagemDeErro: 'Mensagem de erro!',
+  },
+};
+
+export const Multiline: Story = {
+  args: {
+    ...Default.args,
+    multilinha: true
+  },
+};
+
+export const MultilineDisabled: Story = {
+  args: {
+    ...Multiline.args,
+    desabilitado: true
+  },
+};
+
+export const MultilineInvalid: Story = {
+  args: {
+    ...Multiline.args,
+    invalido: true,
+    mensagemDeErro: 'Mensagem de erro!',
   },
 };
