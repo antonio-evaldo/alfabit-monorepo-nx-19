@@ -1,6 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { ButtonComponent } from '@org-teste/button';
 import { action } from '@storybook/addon-actions';
+import { userEvent, within } from '@storybook/testing-library';
+
 
 const meta: Meta<ButtonComponent> = {
   component: ButtonComponent,
@@ -111,4 +113,14 @@ export const TertiaryVioletDisabled: Story = {
     ...TertiaryViolet.args,
     disabled: true,
   }
+};
+
+export const ClickExample: Story = {
+  args: {
+    text: 'Click Me',
+  },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    await userEvent.click(canvas.getByRole('button', { name: /Click Me/i }));
+  },
 };
