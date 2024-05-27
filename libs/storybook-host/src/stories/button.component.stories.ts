@@ -3,7 +3,7 @@ import { ButtonComponent } from '@org-teste/button';
 
 const meta: Meta<ButtonComponent> = {
   component: ButtonComponent,
-  title: 'Button',
+  title: 'Design System/Molecules/Button',
   parameters: {
     docs: {
       description: {
