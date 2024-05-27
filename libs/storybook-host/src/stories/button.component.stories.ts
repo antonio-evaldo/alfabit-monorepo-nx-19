@@ -1,15 +1,26 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { ButtonComponent } from '@org-teste/button';
+import { action } from '@storybook/addon-actions';
 
 const meta: Meta<ButtonComponent> = {
   component: ButtonComponent,
   title: 'Design System/Molecules/Button',
+  // args: {
+  //   onClick: action('on-click'),
+  // },
   parameters: {
     docs: {
       description: {
         component: 'Este é um componente de botão utilizado para disparar ações.'
       }
     },
+    actions: {
+      argTypesRegex: '^on.*',
+      handles: ['mouseover', 'click'],
+    },
+  },
+  argTypes: {
+    onClick: { action: 'clicked' }
   }
 };
 export default meta;
@@ -20,7 +31,8 @@ export const Primary: Story = {
     text: 'Action',
     disabled: false,
     variant: 'primary',
-    theme: 'blue'
+    theme: 'blue',
+    onClick: () => console.log('clicked button'),
   }
 };
 
