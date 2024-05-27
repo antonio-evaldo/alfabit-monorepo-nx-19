@@ -3,7 +3,7 @@ import { InputComponent } from '@org-teste/input';
 
 const meta: Meta<InputComponent> = {
   component: InputComponent,
-  title: 'Input',
+  title: 'Design System/Molecules/Input',
 };
 export default meta;
 type Story = StoryObj<InputComponent>;
