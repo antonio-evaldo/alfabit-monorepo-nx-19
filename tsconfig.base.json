@@ -20,7 +20,8 @@
       ],
       "@org-teste/button": ["libs/ui/button/src/index.ts"],
       "@org-teste/input": ["libs/ui/input/src/index.ts"],
-      "@org-teste/teste": ["libs/teste/src/index.ts"]
+      "@org-teste/teste": ["libs/teste/src/index.ts"],
+      "@org-teste/typography": ["libs/ui/typography/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
