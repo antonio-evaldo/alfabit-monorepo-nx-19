@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
 })
 export class InputComponent {
   /**
-   * Determina se será um `<input>` ou `<textarea>`.
+   * Se for `false`, será um `<input>`. Se for `true`, será um `<textarea>`.
    */
   @Input() multiline = false;
 
