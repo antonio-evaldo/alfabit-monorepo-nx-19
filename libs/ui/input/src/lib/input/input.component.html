@@ -21,7 +21,7 @@
 
 }
 
-@if (invalid) {
+@if (invalid && !disabled) {
 
 <span id="elementoMensagemDeErro" aria-live="polite">
   {{ errorMessage }}
