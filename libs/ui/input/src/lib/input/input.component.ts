@@ -10,6 +10,11 @@ import { CommonModule } from '@angular/common';
 })
 export class InputComponent {
   /**
+   * Se definida, terá uma label visível. Se não definida, adicione um `aria-label` apropriado no componente.
+   */
+  @Input() label = '';
+
+  /**
    * Se for `false`, será um `<input>`. Se for `true`, será um `<textarea>`.
    */
   @Input() multiline = false;
@@ -28,4 +33,13 @@ export class InputComponent {
    * Mensagem de erro para quando o Input for inválido.
    */
   @Input() errorMessage = '';
+
+  getInputContainerClasses(): string {
+    let classes = 'input-container';
+
+    if (this.label)
+      classes += ' with-label';
+
+    return classes;
+  }
 }

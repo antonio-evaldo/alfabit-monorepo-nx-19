@@ -1,30 +1,40 @@
-@if (!multiline) {
+<div [class]="getInputContainerClasses()">
 
-  <input
-    type="text"
-    placeholder="Text"
-    class="input"
-    [disabled]="disabled"
-    [attr.aria-invalid]="invalid"
-    aria-errormessage="elementoMensagemDeErro"
-  />
+  @if (label) {
+    <label class="label" for="input">{{ label }}</label>
+  }
 
-} @else {
+  @if (!multiline) {
 
-  <textarea
-    placeholder="Text"
-    class="input"
-    [disabled]="disabled"
-    [attr.aria-invalid]="invalid"
-    aria-errormessage="elementoMensagemDeErro"
-  ></textarea>
+    <input
+      id="input"
+      type="text"
+      placeholder="Text"
+      class="input"
+      [disabled]="disabled"
+      [attr.aria-invalid]="invalid"
+      aria-errormessage="elementoMensagemDeErro"
+    />
 
-}
+  } @else {
 
-@if (invalid && !disabled) {
+    <textarea
+      id="input"
+      placeholder="Text"
+      class="input"
+      [disabled]="disabled"
+      [attr.aria-invalid]="invalid"
+      aria-errormessage="elementoMensagemDeErro"
+    ></textarea>
 
-  <span id="elementoMensagemDeErro" aria-live="polite">
-    {{ errorMessage }}
-  </span>
+  }
 
-}
+  @if (invalid && !disabled) {
+
+    <span id="elementoMensagemDeErro" aria-live="polite">
+      {{ errorMessage }}
+    </span>
+
+  }
+
+</div>
