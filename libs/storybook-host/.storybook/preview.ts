@@ -9,9 +9,9 @@ const preview: Preview = {
       argTypesRegex: "^on [A-Z].*"
     },
     options: {
-      storySort: {
-      method: "alphabetical",
-      locales: "pt-BR",
+        storySort: {
+        method: "alphabetical",
+        locales: "pt-BR",
       },
     },
   },

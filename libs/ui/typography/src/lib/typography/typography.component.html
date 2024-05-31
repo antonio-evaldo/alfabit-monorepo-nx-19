@@ -1,1 +1,11 @@
-<p>typography works!</p>
+<ng-container [ngSwitch]="element">
+  <p *ngSwitchCase="'p'" [ngClass]="computedClasses">
+    <ng-content></ng-content>
+  </p>
+  <span *ngSwitchCase="'span'" [ngClass]="computedClasses">
+    {{content}} <ng-content></ng-content>
+  </span>
+  <div *ngSwitchDefault [ngClass]="computedClasses">
+    {{content}} <ng-content></ng-content>
+  </div>
+</ng-container>

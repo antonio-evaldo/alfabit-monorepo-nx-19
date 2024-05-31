@@ -1,0 +1,43 @@
+.font-normal {
+  font-weight: normal;
+}
+
+.primary {
+  color: #d85d5d;
+}
+
+.text-gray-secondary {
+  color: #666;
+}
+
+.text-gray-tertiary {
+  color: #999;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-md {
+  font-size: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-txl {
+  font-size: 1.5rem;
+}
+
+.text-tlg {
+  font-size: 1.875rem;
+}
+
+.text-tmd {
+  font-size: 2.25rem;
+}

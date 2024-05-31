@@ -1,11 +1,24 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'org-teste-typography',
-  standalone: true,
-  imports: [CommonModule],
   templateUrl: './typography.component.html',
-  styleUrl: './typography.component.css',
+  styleUrls: ['./typography.component.css']
 })
-export class TypographyComponent {}
+export class TypographyComponent {
+  @Input() variant: 'primary' | 'secondary' | 'tertiary' = 'primary';
+  @Input() size: 'xs' | 'sm' | 'md' | 'xl' | 'title1' | 'title2' | 'title3' = 'md';
+  @Input() content: string = 'texto';
+  @Input() element: string = 'span';
+  @Input() customClass: string = '';
+
+  get computedClasses(): string {
+    let classes = 'font-normal ';
+    classes += `text-${this.variant || 'gray-primary'} `;
+    classes += `text-${this.size} `;
+    if (this.customClass) {
+      classes += `${this.customClass} `;
+    }
+    return classes.trim();
+  }
+}
