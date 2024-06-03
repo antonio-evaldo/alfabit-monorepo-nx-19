@@ -1,3 +1,34 @@
+## 0.5.0 (2024-06-03)
+
+
+### 🚀 Features
+
+- **button:** atualizando docs
+
+
+### 🩹 Fixes
+
+- **button:** usa valores `rem` no CSS
+
+- **button:** mudando cor de foco para botão violeta
+
+
+### Refactoring
+
+- adiciona prefixo `ab-` nas variáveis CSS
+
+- **button:** refatora CSS do estado desabilitado
+
+- **button:** usa propriedades em vez de parâmetros
+
+- **button:** renomeando variáveis para inglês
+
+
+### ❤️  Thank You
+
+- Antônio Evaldo
+- Nayanne Batista
+
 ## 0.4.5 (2024-05-24)
 
 
