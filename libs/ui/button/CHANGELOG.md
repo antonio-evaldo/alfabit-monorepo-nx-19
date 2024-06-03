@@ -1,3 +1,15 @@
+## 0.5.0 (2024-06-03)
+
+
+### 🚀 Features
+
+- **button:** atualizando docs
+
+
+### ❤️  Thank You
+
+- Antônio Evaldo
+
 ## 0.4.5 (2024-05-24)
 
 
