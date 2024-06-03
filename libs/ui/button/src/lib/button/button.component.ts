@@ -13,7 +13,7 @@ type themes = 'blue' | 'violet';
 })
 export class ButtonComponent {
   /**
-   * Texto do botão.
+   * Texto atualizado do botão.
    */
   @Input() text = '';
   @Input() disabled = false;
